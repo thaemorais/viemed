@@ -17,7 +17,9 @@ export default function CashflowCard() {
 			<div className="h-0 mx-auto border border-zinc-200 border-dashed"></div>
 
 			<div className="flex justify-between pt-2 text-blue font-normal text-sm">
-				<span>Walmart Supercenter #3081</span>
+				<select name="loja" id="loja">
+					<option value="loja">Walmart Supercenter #3081</option>
+				</select>
 				<select name="months" id="months">
 					<option value="august">August</option>
 				</select>

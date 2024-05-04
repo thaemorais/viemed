@@ -13,6 +13,21 @@ export default function Inventory() {
 				</div>
 				<ArrowIcon />
 			</div>
+
+			<div className="h-0 mx-auto border border-zinc-200 border-dashed"></div>
+
+			<div className="flex justify-between pt-2 text-blue font-normal text-sm">
+				<select name="loja" id="loja">
+					<option value="loja">Walmart Supercenter #3081</option>
+				</select>
+				<select name="months" id="months">
+					<option value="august">August</option>
+				</select>
+			</div>
+
+			<div>
+				<span>Low stock (unit)</span>
+			</div>
 		</div>
 	);
 }

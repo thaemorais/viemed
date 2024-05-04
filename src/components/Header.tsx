@@ -1,5 +1,5 @@
-import Logo from "./img/Logo";
-import Perfil from "./img/Perfil";
+import Logo from "../assets/img/Logo";
+import Perfil from "../assets/img/Perfil";
 
 export default function Header() {
 	return (
