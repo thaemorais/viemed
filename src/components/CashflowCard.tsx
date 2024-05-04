@@ -5,7 +5,7 @@ import CashflowIcon from "./icons/cards/CashflowIcon";
 
 export default function CashflowCard() {
 	return (
-		<div className="w-screen h-auto shadow-lg m-[1rem] px-[1.5rem]">
+		<div className="rounded-xl w-auto h-auto shadow-lg mx-[1rem] px-[1.5rem]">
 			<div className="flex justify-between items-center pt-5 pb-2">
 				<div className="flex items-center gap-3">
 					<CashflowIcon />
